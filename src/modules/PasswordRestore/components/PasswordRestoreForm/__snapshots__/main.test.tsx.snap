@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component PasswordRestoreForm renders correctly 1`] = `
+<div
+  className="entry__inner"
+>
+  <div
+    className="entry__header"
+  >
+    <h2
+      className="entry__title text-center"
+    >
+      Восстановление пароля
+    </h2>
+  </div>
+  <form
+    className="entry__box"
+  >
+    <Field
+      component={[Function]}
+      id="pass"
+      name="pass"
+      placeholder="Новый пароль"
+    />
+    <Field
+      component={[Function]}
+      id="passAgain"
+      name="passAgain"
+      placeholder="Новый пароль повторно"
+    />
+    <Component
+      prefix="btn"
+      styleBtn="secondary"
+      type="submit"
+      wide={true}
+    >
+      Восстановить пароль
+    </Component>
+    <ul
+      className="entry__link text-center"
+    >
+      <li
+        className="entry-nav__item"
+      >
+        <Link
+          replace={false}
+          to="/signup"
+        >
+          Регистрация
+        </Link>
+      </li>
+    </ul>
+  </form>
+</div>
+`;

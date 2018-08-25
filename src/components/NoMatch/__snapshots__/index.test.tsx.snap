@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component Loader renders correctly 1`] = `
+<div
+  className="entry entry--min"
+>
+  <div
+    className="entry__inner text-center "
+  >
+    <h2
+      className="pt10 pb10"
+    >
+      Ничего не найдено
+    </h2>
+    <Component
+      prefix="btn"
+      styleBtn="secondary"
+      type="button"
+      wide={false}
+    >
+      <Link
+        replace={false}
+        to="/"
+      >
+        Продолжить
+      </Link>
+    </Component>
+  </div>
+</div>
+`;

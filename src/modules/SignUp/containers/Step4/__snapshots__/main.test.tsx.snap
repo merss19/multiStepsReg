@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component StepThree renders correctly 1`] = `
+<div
+  className="entry__success"
+>
+  <h3>
+    Ваша заявка принята.
+  </h3>
+  <p>
+    В ближайшее время мы с вами свяжемся!
+  </p>
+  <div
+    className="text-center pt20"
+  >
+    <Component
+      prefix="btn"
+      styleBtn="secondary"
+      type="button"
+      wide={false}
+    >
+      <Link
+        onClick={[Function]}
+        replace={false}
+        to="/"
+      >
+        Вернуться на главный сайт
+      </Link>
+    </Component>
+  </div>
+</div>
+`;

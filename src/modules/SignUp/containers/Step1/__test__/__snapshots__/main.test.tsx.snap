@@ -1,0 +1,113 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component StepOne renders correctly 1`] = `
+<div>
+  <div
+    className="entry__header"
+  >
+    <h2
+      className="entry__title entry__title--auth text-center "
+    >
+      Регистрация
+    </h2>
+  </div>
+  <form
+    className="entry__box"
+  >
+    <Field
+      component={[Function]}
+      name="email"
+      placeholder="Ваш e-mail"
+      type="text"
+    />
+    <Field
+      component={[Function]}
+      name="password"
+      placeholder="Ваш пароль"
+      type="password"
+    />
+    <Field
+      component={[Function]}
+      name="passwordAgain"
+      placeholder="Пароль повторно"
+      type="password"
+    />
+    <div
+      className="gender"
+    >
+      <div
+        className="gender__group"
+      >
+        <p
+          className="gender__title"
+        >
+          Ваш пол:
+        </p>
+        <Field
+          component={[Function]}
+          id="male"
+          name="gender"
+          title="Мужчина"
+          type="radio"
+          validate={[Function]}
+          value="male"
+        />
+        <Field
+          component={[Function]}
+          id="female"
+          name="gender"
+          title="Женщина"
+          type="radio"
+          validate={[Function]}
+          value="female"
+        />
+      </div>
+      <hr
+        className="gender__hr"
+      />
+    </div>
+    <div
+      className="checkboxes"
+    >
+      <Field
+        component={[Function]}
+        id="accept"
+        name="accept"
+        title="Принять условия "
+      />
+    </div>
+    <Component
+      prefix="btn"
+      styleBtn="secondary"
+      type="submit"
+      wide={true}
+    >
+      Зарегистрироваться
+    </Component>
+    <div
+      className="entry__link text-center mtb20"
+    >
+      <div
+        className="entry-nav__item"
+      >
+        <Link
+          replace={false}
+          to="/"
+        >
+          Войти
+        </Link>
+      </div>
+      <div
+        className="entry-nav__item"
+      >
+        <Link
+          replace={false}
+          to="/restore"
+        >
+          Забыли пароль?
+        </Link>
+      </div>
+    </div>
+  </form>
+</div>
+`;

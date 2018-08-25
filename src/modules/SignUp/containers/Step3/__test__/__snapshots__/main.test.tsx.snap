@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component StepThree renders correctly 1`] = `
+<div>
+  <div
+    className="entry__header"
+  >
+    <h2
+      className="entry__title entry__title--auth text-center "
+    >
+      Регистрация
+    </h2>
+  </div>
+  <p
+    className="entry-packet-name"
+  >
+    1 человек
+  </p>
+  <div
+    className="entry__box"
+  >
+    <div
+      className="entry-ico-box"
+    >
+      <img
+        alt=""
+        className="entry-ico-box__img"
+        src="/img/ico-success.svg"
+      />
+      <p
+        className="entry-ico-box__title"
+      >
+        Оплачен!
+      </p>
+    </div>
+    <Component
+      prefix="btn"
+      styleBtn="secondary"
+      type="button"
+      wide={true}
+    >
+      <Link
+        replace={false}
+        to="/profile"
+      >
+        Продолжить
+      </Link>
+    </Component>
+  </div>
+</div>
+`;

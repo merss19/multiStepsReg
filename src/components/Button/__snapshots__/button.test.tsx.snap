@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component Button renders correctly 1`] = `
+<button
+  className="btn-group btn-group--error wide"
+  onClick={[Function]}
+  type="submit"
+>
+  Продолжить
+</button>
+`;

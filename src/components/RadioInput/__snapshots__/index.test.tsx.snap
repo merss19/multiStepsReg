@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component RadioInput renders correctly 1`] = `
+<span
+  className="radio input--error"
+>
+  <label
+    className="radio__label"
+    htmlFor="male"
+  >
+    <input
+      className="radio__field"
+      id="male"
+      name="gender"
+      type="radio"
+    />
+    <span
+      className="radio__ph"
+    />
+    <span>
+      Мужчина
+    </span>
+  </label>
+  <p
+    className="input__alert"
+  >
+    Пол должен быть заполнен
+  </p>
+</span>
+`;

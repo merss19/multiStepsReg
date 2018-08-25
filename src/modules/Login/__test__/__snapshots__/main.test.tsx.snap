@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component LoginForm renders correctly 1`] = `
+<ReduxForm
+  onSubmit={[Function]}
+>
+  <Connect(CustomModalComponent)
+    clickHandler={[Function]}
+    isLoader={false}
+    modal="error"
+    resultText="Ошибка"
+  />
+</ReduxForm>
+`;

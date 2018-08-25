@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component PasswordRestore renders correctly 1`] = `
+<div
+  className="entry--min"
+>
+  <ReduxForm
+    onSubmit={[Function]}
+  />
+  <Connect(CustomModalComponent)
+    clickHandler={[Function]}
+    isLoader={false}
+    modal="info"
+    resultText="resultText"
+  />
+</div>
+`;

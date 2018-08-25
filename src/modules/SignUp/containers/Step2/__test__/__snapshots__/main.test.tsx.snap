@@ -1,0 +1,142 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component StepTwo renders correctly 1`] = `
+<div>
+  <div
+    className="entry__header"
+  >
+    <h2
+      className="entry__title entry__title--auth text-center "
+    >
+      Регистрация
+    </h2>
+  </div>
+  <div
+    className="entry__box"
+  >
+    <ul
+      className="options options--white wide mb30"
+    >
+      <li
+        className="options__item is-active g-hero"
+        key="1"
+        onClick={[Function]}
+      >
+        hero
+      </li>
+      <li
+        className="options__item g-mather"
+        key="2"
+        onClick={[Function]}
+      >
+        mother
+      </li>
+      <li
+        className="options__item g-extreme"
+        key="3"
+        onClick={[Function]}
+      >
+        extreme
+      </li>
+      <li
+        className="options__item g-tomorrow"
+        key="4"
+        onClick={[Function]}
+      >
+        tomorrow
+      </li>
+    </ul>
+    <ul
+      className="options options--white options--types wide mt30"
+    >
+      <li
+        className="options__item"
+        key="1"
+        onClick={[Function]}
+      >
+        1 человек
+      </li>
+      <li
+        className="options__item"
+        key="2"
+        onClick={[Function]}
+      >
+        2 человек
+      </li>
+      <li
+        className="options__item"
+        key="3"
+        onClick={[Function]}
+      >
+        1 ЧЕЛОВЕК + ФИТНЕС-БРАСЛЕТ
+      </li>
+      <li
+        className="options__item"
+        key="4"
+        onClick={[Function]}
+      >
+        1 ЧЕЛОВЕК + КОВРИК
+      </li>
+      <li
+        className="options__item"
+        key="5"
+        onClick={[Function]}
+      >
+        3 человек
+      </li>
+    </ul>
+  </div>
+  <div
+    className="entry__box"
+  >
+    <div
+      className="entry-program-price"
+    >
+      3000 руб
+    </div>
+    <div
+      className="input--btn"
+    >
+      <input
+        className="input__field"
+        name="promo"
+        placeholder="Eсть промокод, вводи"
+        type="text"
+      />
+      <Component
+        onClick={[Function]}
+        prefix="btn"
+        styleBtn="secondary"
+        type="button"
+        wide={false}
+      >
+        Применить
+      </Component>
+    </div>
+    <Component
+      onClick={[Function]}
+      prefix="btn"
+      styleBtn="primary"
+      type="button"
+      wide={true}
+    >
+      Далее
+    </Component>
+  </div>
+  <div
+    className="entry__link text-center"
+  >
+    <div
+      className="entry-nav__item"
+    >
+      <Link
+        onClick={[Function]}
+        replace={false}
+        to="/"
+      >
+        Выйти
+      </Link>
+    </div>
+  </div>
+</div>
+`;

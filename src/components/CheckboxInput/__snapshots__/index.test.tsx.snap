@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component CheckboxInput renders correctly 1`] = `
+<div
+  className="checkboxes__item"
+>
+  <span
+    className="checkbox"
+  >
+    <label
+      className="checkbox__label"
+      htmlFor="offert"
+    >
+      <input
+        checked=""
+        className="checkbox__field"
+        id="offert"
+        name="accept"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onDragStart={[Function]}
+        onDrop={[Function]}
+        onFocus={[Function]}
+        type="checkbox"
+        value=""
+      />
+      <span
+        className="checkbox__ph"
+      >
+        <svg
+          className="svg ico-tick"
+        >
+          <use
+            xlinkHref="#ico-tick"
+          />
+        </svg>
+      </span>
+      <div
+        className="checkbox__group"
+      >
+        <span
+          className="checkbox__title"
+        >
+          Оферта
+        </span>
+        <Link
+          className="checkbox__link"
+          replace={false}
+          target="_blank"
+          to="http://todayme.ru/dogovor-oferty#.WGFQqrZ95E4"
+        >
+          оферты
+        </Link>
+        <span
+          className="checkbox__divider"
+        >
+          и
+        </span>
+        <Link
+          className="checkbox__link"
+          replace={false}
+          target="_blank"
+          to="https://todayme.ru/rules.pdf"
+        >
+          правил
+        </Link>
+      </div>
+    </label>
+  </span>
+</div>
+`;

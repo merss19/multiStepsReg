@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component ProtectedRoute renders correctly 1`] = `
+<Route
+  changeStep={[Function]}
+  checkAuth={[Function]}
+  history={
+    Object {
+      "replace": [Function],
+    }
+  }
+  isLoad={false}
+  location={Object {}}
+  match={
+    Object {
+      "isExact": true,
+      "params": Object {},
+      "path": "/task",
+      "url": "/task",
+    }
+  }
+  render={[Function]}
+  renderModal={[Function]}
+  toggleModal={[Function]}
+  user={Object {}}
+/>
+`;

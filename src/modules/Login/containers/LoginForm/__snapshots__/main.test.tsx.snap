@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component LoginForm renders correctly 1`] = `
+<div
+  className="entry entry--min"
+>
+  <div
+    className="entry__inner"
+  >
+    <div
+      className="entry__header"
+    >
+      <h2
+        className="entry__title text-center"
+      >
+        Вход в Личный кабинет
+      </h2>
+    </div>
+    <form
+      className="entry__box"
+    >
+      <Field
+        component={[Function]}
+        name="email"
+        placeholder="Ваш e-mail"
+        type="email"
+      />
+      <Field
+        component={[Function]}
+        name="password"
+        placeholder="Ваш пароль"
+        type="password"
+      />
+      <Component
+        prefix="btn"
+        styleBtn="secondary"
+        type="submit"
+        wide={true}
+      >
+        Войти
+      </Component>
+      <ul
+        className="entry-nav mtb20"
+      >
+        <li
+          className="entry-nav__item"
+        >
+          <Link
+            replace={false}
+            to="/signup"
+          >
+            Регистрация
+          </Link>
+        </li>
+        <li
+          className="entry-nav__item"
+        >
+          <Link
+            replace={false}
+            to="/restore"
+          >
+            Забыли пароль?
+          </Link>
+        </li>
+      </ul>
+    </form>
+  </div>
+</div>
+`;

@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "outDir": "build/dist",
+    "module": "commonjs",
+    "target": "es5",
+    "lib": ["es6", "dom"],
+    "sourceMap": true,
+    "allowJs": true,
+    "jsx": "react",
+    "moduleResolution": "node",
+    "baseUrl": "src",
+    "paths": {
+      "components/*": [ "components/*" ],
+      "modules/*": [ "modules/*" ],
+      "interfaces/*": [ "interfaces/*" ],
+      "tools/*": [ "tools/*" ],
+      "middleware/*": [ "middleware/*" ]
+    },
+    "forceConsistentCasingInFileNames": false,
+    "noImplicitReturns": false,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "strictNullChecks": false,
+    "suppressImplicitAnyIndexErrors": true,
+    "noUnusedLocals": false
+  },
+  "exclude": [
+    "node_modules",
+    "build",
+    "scripts",
+    "acceptance-tests",
+    "webpack",
+    "jest",
+    "**/*.test.tsx",
+    "src/**/*.test.tsx",
+    "src/setupTests.ts"
+  ]
+}

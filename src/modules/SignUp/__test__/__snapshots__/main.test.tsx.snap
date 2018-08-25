@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component SignUp renders correctly 1`] = `
+<div
+  className="layout layout--entry"
+>
+  <div
+    className="grid entry-header"
+  >
+    <div
+      className="1/4--desk grid__cell todayme-logo"
+    >
+      <LogoLink />
+    </div>
+    <div
+      className="2/4--desk grid__cell text-center"
+    >
+      <div
+        className="entry-step"
+      >
+        <span
+          className="entry-step__title"
+        >
+          Шаг
+        </span>
+        <span
+          className="entry-step__no"
+        >
+          #
+          1
+        </span>
+        <span
+          className="entry-step__go-to"
+        >
+          из 4
+        </span>
+      </div>
+    </div>
+  </div>
+  <div
+    className="entry entry--min"
+  >
+    <div
+      className="entry__inner"
+    >
+      <Connect(withModal(ReduxForm))
+        changeStep={[Function]}
+        getPrograms={[Function]}
+        history={
+          Object {
+            "replace": [Function],
+          }
+        }
+        isError={false}
+        isFetching={false}
+        isLoad={false}
+        location={Object {}}
+        match={
+          Object {
+            "isExact": true,
+            "params": Object {},
+            "path": "/task",
+            "url": "/task",
+          }
+        }
+        setProgramName={[Function]}
+        setToken={[Function]}
+        step={1}
+        userCreate={[Function]}
+      />
+    </div>
+  </div>
+</div>
+`;

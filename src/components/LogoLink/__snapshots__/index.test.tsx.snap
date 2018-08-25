@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component Loader renders correctly 1`] = `
+<Link
+  onClick={[Function]}
+  replace={false}
+  to="/"
+>
+  <svg
+    className="svg-icon ys-logo-web"
+  >
+    <use
+      xlinkHref="#ys-logo-web"
+    />
+  </svg>
+</Link>
+`;

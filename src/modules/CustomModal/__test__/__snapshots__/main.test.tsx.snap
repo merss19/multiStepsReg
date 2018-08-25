@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component CustomModalComponent renders correctly 1`] = `
+<div>
+  <Modal
+    ariaHideApp={true}
+    bodyOpenClassName="ReactModal__Body--open"
+    closeTimeoutMS={0}
+    contentLabel="Action Modal"
+    isOpen={false}
+    onRequestClose={[Function]}
+    parentSelector={[Function]}
+    portalClassName="ReactModalPortal"
+    shouldCloseOnOverlayClick={true}
+    shouldFocusAfterRender={true}
+    style={
+      Object {
+        "content": Object {
+          "borderRadius": "12px",
+          "bottom": "auto",
+          "margin": "0 auto",
+          "maxHeight": "300px",
+          "maxWidth": "400px",
+          "overflow": "none",
+          "padding": "40px",
+          "textAlign": "center",
+          "top": "50%",
+          "transform": "translate3d(0%, -50%, 0px)",
+        },
+        "overlay": Object {
+          "backgroundColor": "rgba(45, 43, 43, 0.85)",
+          "zIndex": "2",
+        },
+      }
+    }
+  >
+    <div
+      className="modal__content"
+    >
+      <Motion
+        defaultStyle={
+          Object {
+            "opacity": 0,
+          }
+        }
+        style={
+          Object {
+            "opacity": Object {
+              "damping": 26,
+              "precision": 0.01,
+              "stiffness": 70,
+              "val": 1,
+            },
+          }
+        }
+      />
+    </div>
+  </Modal>
+</div>
+`;

@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component Header renders correctly 1`] = `
+<div
+  className="header header--hero"
+>
+  <div
+    className="grid header__inner"
+  >
+    <div
+      className="grid__cell header__burger"
+    >
+      <span
+        className="header__ico-burger"
+      >
+        <svg
+          className="svg-icon ico-burger"
+        >
+          <use
+            xlinkHref="#ico-burger"
+          />
+        </svg>
+      </span>
+    </div>
+    <h1
+      className="grid__cell header__logo"
+    >
+      Ясегодня
+      <svg
+        className="svg-icon ys-logo-web"
+      >
+        <use
+          xlinkHref="#ys-logo-web"
+        />
+      </svg>
+    </h1>
+    <div
+      className="grid__cell header__right-side"
+    >
+      <Component
+        prefix="btn"
+        styleBtn="secondary"
+        type="button"
+        wide={false}
+      >
+        <Link
+          onClick={[Function]}
+          replace={false}
+          to="/"
+        >
+          Выход
+        </Link>
+      </Component>
+    </div>
+  </div>
+</div>
+`;
